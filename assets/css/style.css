@@ -1,0 +1,144 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Spectral', serif; */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* NAV BAR  */
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc017;
+    height: 75px;
+    border-bottom: 1px solid black;
+}
+.navBar nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+.navLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+.navLinks a, .navLinks a:visited{
+    text-decoration: none;
+    color: black;
+    flex-grow: 1;
+}
+button{
+    background-color: #191919;
+    border: none;
+    color: white;
+    border-radius: 35px;
+}
+.navLinks button{
+    flex-grow: 2;
+    height: 38px;
+}
+/* Title with description */
+.mainTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+}
+.titleDiv{
+    width: 555px;
+    margin-left:5%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.mainTitle h2{
+    font-size: 106px;
+    font-weight: 400;
+    font-family: 'Spectral', serif;
+    margin-bottom: 30px;
+    letter-spacing: -0.05em;
+    line-height: 85px;
+}
+.titleDescription{
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.mainTitle button{
+    width: 200px;
+    font-size: 24px;
+    padding: 7px 20px;
+}
+.mainTitleSVG{
+    padding: 0;
+}
+.trending{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 5%;
+}
+.trendingSpan{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.trendingSpan img{
+    margin-right: 10px;
+}
+.reviews{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.reviews div{
+    display: flex;
+    width: 300px;
+}
+.reviewsNumber{
+    font-size: 25px;
+    color: lightgray;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+    margin-left: 3px;
+    margin-right: 20px;
+}
+.reviewsSlot{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.reviewsInfo{
+    display: flex;
+    flex-direction: column;
+}
+.reviewsInfo div{
+    display: flex;
+    align-items: center;
+}
+.reviewsInfo img{
+    width: 21px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.reviewsInfo h3{
+    overflow: hidden;
+    font-weight: bold;
+    padding: 10px 0;
+    font-size: 18px;
+    max-height: 47px;
+}
+.reviewsInfo span{
+    color: #424242;
+    font-size: 14px;
+    padding-top: 10px;
+}
