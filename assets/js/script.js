@@ -1,7 +1,7 @@
 let navBar = document.querySelector('.navBar');
 let navButton = document.querySelector('.navLinks button')
 window.onscroll = () =>{
-    if(window.scrollY > 466){
+    if(window.scrollY > 426){
         navBar.classList.add('navActive');
         navButton.classList.add('navLinksBtn-Active')
     }else {
