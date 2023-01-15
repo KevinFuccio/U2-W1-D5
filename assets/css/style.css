@@ -60,6 +60,7 @@ button {
 .mainTitle {
   display: flex;
   position: relative;
+  overflow: hidden;
   justify-content: space-between;
   align-items: center;
   background-color: #ffc017;
